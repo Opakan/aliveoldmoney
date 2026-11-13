@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>OWN THE MACHINE by Warren Croft | Alive Old Money (Official Operator Edition)</title>
+  <title>OWN THE MACHINE by Warren Croft | Alive Old Money</title>
   
   <!-- =========================================================================
        ⚡ CENTRALIZED GUMROAD CHECKOUT CONFIGURATION
@@ -32,13 +32,13 @@
   <meta name="twitter:image" content="https://aliveoldmoney.shop/assets/book-cover.jpg">
 
   <!-- Theme & Favicon -->
-  <meta name="theme-color" content="#070A12">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23C5A059' stroke-width='1.5'%3E%3Cpath d='M3 21h18M3 7v1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7H3l2-4h14l2 4M5 21V10.85M19 21V10.85M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#0B0A07">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23F0C85B' stroke-width='1.5'%3E%3Cpath d='M3 21h18M3 7v1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7H3l2-4h14l2 4M5 21V10.85M19 21V10.85M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4'/%3E%3C/svg%3E">
 
   <!-- Google Fonts: Luxury Editorial Serif & Crisp Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -47,42 +47,40 @@
       theme: {
         extend: {
           colors: {
-            obsidian: '#070A12',
-            'obsidian-surface': '#0D1220',
-            'obsidian-card': '#12192C',
-            'obsidian-border': '#1E293B',
-            gold: {
-              DEFAULT: '#C5A059',
-              light: '#E2C78A',
-              dark: '#8C6C2D',
-              border: 'rgba(197, 160, 89, 0.28)',
-              glow: 'rgba(197, 160, 89, 0.15)',
+            storefront: {
+              ink: '#0B0A07',
+              'ink-raised': '#110F0A',
+              'deep-accent': '#1C1609',
+              cream: '#FFFAF0',
+              accent: '#D9A21F',
+              'accent-light': '#F0C85B',
+              'accent-bright': '#FFE58C',
+              'text-ink': '#FFFAF0',
+              'text-strong': '#C7BFAD',
+              'text-secondary': '#A9A18F',
+              'text-muted': '#8E8574',
+              'border-subtle': 'rgba(240, 200, 91, 0.18)',
+              'border-card': 'rgba(240, 200, 91, 0.35)',
+              'border-featured': 'rgba(240, 200, 91, 0.75)',
             },
             parchment: {
-              DEFAULT: '#F7F4EE',
+              DEFAULT: '#F8F5EE',
               card: '#FFFFFF',
-              border: '#E3DCce',
+              border: '#E3DCCB',
               text: '#171411',
               muted: '#524B43',
-            },
-            emerald: {
-              500: '#10B981',
-              600: '#059669',
-              700: '#047857',
-              glow: 'rgba(16, 185, 129, 0.35)',
             }
           },
           fontFamily: {
-            serif: ['"Playfair Display"', 'Georgia', 'serif'],
-            cormorant: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            serif: ['Georgia', '"Playfair Display"', 'serif'],
             cinzel: ['"Cinzel"', 'serif'],
             sans: ['"Inter"', 'system-ui', '-apple-system', 'sans-serif'],
             mono: ['"JetBrains Mono"', 'monospace'],
           },
           boxShadow: {
-            'luxury-gold': '0 20px 45px -15px rgba(197, 160, 89, 0.25)',
-            'luxury-card': '0 10px 30px -10px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.05)',
-            'parchment-depth': '0 8px 30px -6px rgba(45, 35, 20, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05)',
+            'frankie-card': '0 24px 70px rgba(0, 0, 0, 0.65), 0 0 0 1px rgba(240, 200, 91, 0.2)',
+            'frankie-cover': '0 18px 48px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(240, 200, 91, 0.35)',
+            'frankie-btn': '0 12px 34px rgba(240, 190, 53, 0.28)',
           }
         }
       }
@@ -95,16 +93,47 @@
   <style>
     /* Custom Scrollbar */
     ::-webkit-scrollbar { width: 8px; }
-    ::-webkit-scrollbar-track { background: #070A12; }
-    ::-webkit-scrollbar-thumb { background: #1E293B; border-radius: 4px; }
-    ::-webkit-scrollbar-thumb:hover { background: #C5A059; }
+    ::-webkit-scrollbar-track { background: #0B0A07; }
+    ::-webkit-scrollbar-thumb { background: #262116; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #F0C85B; }
 
-    /* Luxury Editorial Textures */
-    .bg-grain {
-      background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
-      background-size: 24px 24px;
+    /* Frankie Finance Page Background */
+    .frankie-page-bg {
+      background: radial-gradient(circle at 50% 0%, rgba(216, 166, 41, 0.16), transparent 36rem), #0B0A07;
+      width: 100%;
+      min-height: 100vh;
     }
 
+    /* Frankie Style Primary Button */
+    .frankie-primary-btn {
+      border: 1px solid rgba(255, 229, 140, 0.72);
+      color: #171204;
+      background: linear-gradient(135deg, #FFE58C, #D9A21F);
+      box-shadow: 0 12px 38px rgba(240, 190, 53, 0.3);
+      transition: transform 0.18s ease, filter 0.18s ease, box-shadow 0.18s ease;
+      font-weight: 800;
+    }
+    .frankie-primary-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 44px rgba(240, 190, 53, 0.45);
+      filter: brightness(1.04);
+    }
+
+    /* Frankie Style Secondary Button */
+    .frankie-secondary-btn {
+      border: 1px solid rgba(240, 200, 91, 0.32);
+      color: #FFFAF0;
+      background: rgba(255, 255, 255, 0.03);
+      transition: all 0.18s ease;
+      font-weight: 700;
+    }
+    .frankie-secondary-btn:hover {
+      border-color: #F0C85B;
+      background: rgba(240, 200, 91, 0.08);
+      color: #FFE58C;
+    }
+
+    /* Parchment Proof Texture */
     .parchment-texture {
       background-color: #F8F5EE;
       background-image: radial-gradient(#d6cdbc 0.65px, transparent 0.65px), radial-gradient(#d6cdbc 0.65px, #F8F5EE 0.65px);
@@ -112,323 +141,243 @@
       background-position: 0 0, 14px 14px;
     }
 
-    /* Metallic Foil Shimmer */
-    .gold-headline {
-      background: linear-gradient(135deg, #F8ECD2 0%, #C5A059 50%, #94712D 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    /* 3D Physical Book Rendering */
-    .book-stage {
-      perspective: 1400px;
-    }
-    
-    .book-spine-3d {
-      transform-style: preserve-3d;
-      transform: rotateY(-18deg) rotateX(6deg);
-      transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.6s ease;
-      box-shadow: -22px 28px 50px -10px rgba(0, 0, 0, 0.85), -6px 12px 25px -5px rgba(197, 160, 89, 0.2);
-    }
-    
-    .book-spine-3d:hover {
-      transform: rotateY(-8deg) rotateX(2deg) translateY(-6px);
-      box-shadow: -28px 34px 60px -8px rgba(0, 0, 0, 0.95), -8px 16px 30px -4px rgba(197, 160, 89, 0.3);
-    }
-
-    /* Book Pages Leaves Layering */
-    .book-edge-pages {
-      position: absolute;
-      top: 4px;
-      bottom: 4px;
-      right: -14px;
-      width: 16px;
-      background: repeating-linear-gradient(
-        to bottom,
-        #f7f3e8 0px,
-        #e3dbc8 1px,
-        #fbf8f0 2px
-      );
-      transform: rotateY(90deg) translateZ(8px);
-      box-shadow: inset 2px 0 4px rgba(0,0,0,0.3);
-      border-radius: 0 2px 2px 0;
-    }
-
-    .book-cover-sheen {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(115deg, rgba(255,255,255,0.22) 0%, rgba(255,255,255,0.06) 25%, transparent 55%);
-      pointer-events: none;
-      border-radius: 6px;
-    }
-
     /* In-App Browser Mobile CTA Padding */
     .safe-bottom-padding {
       padding-bottom: max(1rem, env(safe-area-inset-bottom));
     }
-
-    /* Refined Button Pulse */
-    @keyframes subtleGlow {
-      0%, 100% { box-shadow: 0 0 18px rgba(16, 185, 129, 0.35); }
-      50% { box-shadow: 0 0 32px rgba(16, 185, 129, 0.65); }
-    }
-    .cta-glow-pulse {
-      animation: subtleGlow 3s infinite ease-in-out;
-    }
   </style>
 </head>
-<body class="bg-obsidian text-slate-200 font-sans antialiased selection:bg-gold selection:text-obsidian min-h-screen">
+<body class="frankie-page-bg text-storefront-text-strong font-sans antialiased selection:bg-storefront-accent-light selection:text-storefront-ink min-h-screen">
 
   <!-- =========================================================================
-       BRAND NAVIGATION HEADER
+       BRAND NAVIGATION HEADER (Frankie Finance Style)
   ========================================================================== -->
-  <header class="w-full border-b border-slate-800/80 bg-obsidian/90 backdrop-blur-md relative z-40">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+  <header class="w-full border-b border-storefront-border-subtle bg-storefront-ink/90 backdrop-blur-md sticky top-0 z-40">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
       
-      <!-- Brand Logo -->
-      <a href="https://aliveoldmoney.shop" class="flex flex-col group">
-        <div class="flex items-center gap-2">
-          <i data-lucide="landmark" class="w-4 h-4 text-gold"></i>
-          <span class="font-cinzel text-base sm:text-lg font-bold tracking-[0.22em] text-gold group-hover:text-gold-light transition">
-            ALIVE OLD MONEY
-          </span>
-        </div>
-        <span class="text-[9px] font-mono tracking-widest text-slate-400 uppercase pl-6">
-          aliveoldmoney.shop • Warren Croft Publishing
+      <!-- Clean Brand Mark -->
+      <a href="https://aliveoldmoney.shop" class="flex items-center gap-2.5 group">
+        <i data-lucide="landmark" class="w-5 h-5 text-storefront-accent-light group-hover:text-storefront-accent-bright transition"></i>
+        <span class="font-cinzel text-base sm:text-lg font-bold tracking-[0.22em] text-storefront-cream group-hover:text-storefront-accent-bright transition">
+          ALIVE OLD MONEY
         </span>
       </a>
 
       <!-- Quick Action CTA -->
-      <div class="flex items-center gap-3 sm:gap-5">
-        <div class="hidden sm:flex items-center gap-1.5 text-xs text-slate-400 font-mono">
-          <i data-lucide="users" class="w-3.5 h-3.5 text-gold"></i>
-          <span>1,420+ Operators</span>
-        </div>
-        <a href="https://gumroad.com/l/own-the-machine" 
-           class="gumroad-cta-btn gumroad-button inline-flex items-center gap-1.5 px-4 py-2 rounded-md bg-gold hover:bg-gold-light text-obsidian font-semibold text-xs sm:text-sm tracking-wide transition shadow-sm font-sans">
-          <span>Claim Copy — $27</span>
-          <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-        </a>
-      </div>
+      <a href="https://gumroad.com/l/own-the-machine" 
+         class="gumroad-cta-btn gumroad-button frankie-primary-btn inline-flex items-center gap-1.5 px-4 py-2 rounded font-sans text-xs sm:text-sm tracking-wide">
+        <span>Claim Copy · $27</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 256 256" aria-hidden="true"><path d="M204,64V168a12,12,0,0,1-24,0V93L72.49,200.49a12,12,0,0,1-17-17L163,76H88a12,12,0,0,1,0-24H192A12,12,0,0,1,204,64Z"></path></svg>
+      </a>
 
     </div>
   </header>
 
   <!-- =========================================================================
-       SECTION B: HERO SECTION (Above The Fold)
+       HERO SECTION (Frankie Finance Style)
   ========================================================================== -->
-  <section class="relative pt-8 pb-16 md:pt-14 md:pb-24 overflow-hidden border-b border-slate-800/80 bg-grain">
-    <!-- Subtle Ambient Vignette -->
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[500px] bg-gradient-to-b from-blue-950/25 via-gold/10 to-transparent blur-3xl pointer-events-none -z-10"></div>
-
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      
-
-
-      <!-- Main Two-Column Layout -->
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
-        
-        <!-- Left Column: Copy & Conversion Engine -->
-        <div class="lg:col-span-7 text-center lg:text-left">
-          
-          <h1 class="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-bold text-white leading-[1.14] tracking-tight mb-5">
-            Stop Chasing the Costume. <br class="hidden sm:inline" />
-            <span class="gold-headline italic">Start Owning the Cash-Flow Machine.</span>
-          </h1>
-
-          <p class="text-slate-300 text-base sm:text-lg md:text-xl font-normal leading-relaxed mb-6 max-w-2xl mx-auto lg:mx-0">
-            How everyday earners plug personal cash leaks, build a <span class="text-white font-semibold underline decoration-gold/60 underline-offset-4">$10k to $50k Acquisition War Chest</span>, and use <strong class="text-emerald-400 font-semibold">Seller Financing</strong> to buy boring, recession-proof businesses that run without them.
-          </p>
-
-          <!-- Core Value Bullets with Bespoke Icons -->
-          <div class="space-y-3 mb-8 text-left max-w-xl mx-auto lg:mx-0">
-            <div class="flex items-start gap-3 text-xs sm:text-sm text-slate-200 bg-obsidian-surface/60 p-2.5 rounded-lg border border-slate-800">
-              <i data-lucide="lock" class="w-4 h-4 text-gold flex-shrink-0 mt-0.5"></i>
-              <span><strong>The 4-Account Cash Flow Engine:</strong> Automate your personal surplus and plug hidden leaks without lifestyle deprivation (Pages 10–14).</span>
-            </div>
-            <div class="flex items-start gap-3 text-xs sm:text-sm text-slate-200 bg-obsidian-surface/60 p-2.5 rounded-lg border border-slate-800">
-              <i data-lucide="bar-chart-3" class="w-4 h-4 text-gold flex-shrink-0 mt-0.5"></i>
-              <span><strong>The 15 Boring Business Scorecard:</strong> Net margins (20% to 68%), capital down payments, and weekly owner hours for laundromats, routes, and services (Table 5.1).</span>
-            </div>
-            <div class="flex items-start gap-3 text-xs sm:text-sm text-slate-200 bg-obsidian-surface/60 p-2.5 rounded-lg border border-slate-800">
-              <i data-lucide="file-signature" class="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5"></i>
-              <span><strong>Word-for-Word Seller Financing LOI:</strong> The 2-offer template with the "Right of Offset" clause that stops sellers from inflating past earnings (Pages 27–31).</span>
-            </div>
-          </div>
-
-          <!-- PRIMARY HERO CTA BLOCK -->
-          <div class="bg-obsidian-surface border border-gold/35 rounded-xl p-5 sm:p-6 shadow-luxury-card relative max-w-xl mx-auto lg:mx-0 backdrop-blur-sm">
-            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 mb-4">
-              <div class="text-center sm:text-left">
-                <div class="flex items-center justify-center sm:justify-start gap-2">
-                  <span class="text-3xl font-mono font-bold text-white">$27</span>
-                  <span class="text-slate-400 line-through text-base font-mono">$54 USD</span>
-                  <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-mono text-xs font-bold border border-emerald-500/30">SAVE 50%</span>
-                </div>
-                <div class="text-xs text-slate-400 font-mono mt-0.5">Instant PDF Download • Read on any device</div>
-              </div>
-
-              <!-- Main Button -->
-              <a href="https://gumroad.com/l/own-the-machine" 
-                 class="gumroad-cta-btn gumroad-button cta-glow-pulse w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-lg bg-emerald-500 hover:bg-emerald-600 text-obsidian font-bold text-base tracking-wide transition shadow-lg transform hover:-translate-y-0.5 font-sans">
-                <i data-lucide="download" class="w-5 h-5 text-obsidian"></i>
-                <span>Download Playbook — $27</span>
-              </a>
-            </div>
-
-            <!-- Trust Micro-Copy -->
-            <div class="pt-3 border-t border-slate-800 text-[11px] sm:text-xs text-slate-400 flex flex-wrap items-center justify-center sm:justify-start gap-y-1 gap-x-3">
-              <span class="flex items-center gap-1 text-slate-300">
-                <i data-lucide="book-open" class="w-3.5 h-3.5 text-gold"></i> Complete 48-Page Manual
-              </span>
-              <span>•</span>
-              <span class="flex items-center gap-1 text-slate-300">
-                <i data-lucide="table-2" class="w-3.5 h-3.5 text-gold"></i> 12 Worksheets & LOI Templates
-              </span>
-              <span>•</span>
-              <span class="flex items-center gap-1 text-slate-300">
-                <i data-lucide="graduation-cap" class="w-3.5 h-3.5 text-emerald-400"></i> 21 Harvard & Legal Citations
-              </span>
-            </div>
-          </div>
-
-          <!-- Social Proof Ribbon -->
-          <div class="mt-5 flex flex-wrap items-center justify-center lg:justify-start gap-4 text-xs text-slate-400">
-            <div class="flex items-center gap-1 text-gold">
-              <i data-lucide="star" class="w-3.5 h-3.5 fill-gold text-gold"></i>
-              <i data-lucide="star" class="w-3.5 h-3.5 fill-gold text-gold"></i>
-              <i data-lucide="star" class="w-3.5 h-3.5 fill-gold text-gold"></i>
-              <i data-lucide="star" class="w-3.5 h-3.5 fill-gold text-gold"></i>
-              <i data-lucide="star" class="w-3.5 h-3.5 fill-gold text-gold"></i>
-              <span class="ml-1 text-white font-semibold font-mono">4.98 / 5.0</span>
-            </div>
-            <span class="text-slate-600">•</span>
-            <div class="flex items-center gap-1 text-slate-300">
-              <i data-lucide="badge-check" class="w-3.5 h-3.5 text-emerald-400"></i> Verified Operator Reviews
-            </div>
-            <span class="text-slate-600">•</span>
-            <div class="flex items-center gap-1 text-emerald-400 font-mono">
-              <i data-lucide="lock" class="w-3.5 h-3.5"></i> 256-Bit SSL Gumroad Checkout
-            </div>
-          </div>
-
-        </div>
-
-        <!-- Right Column: Physical 3D Book Mockup with Warren Croft Cover -->
-        <div class="lg:col-span-5 flex justify-center items-center py-4">
-          <div class="book-stage relative w-full max-w-[320px] sm:max-w-[350px]">
-            
-            <!-- 3D Hardcover Container -->
-            <div class="book-spine-3d relative rounded-r-lg border-l-[6px] border-l-[#2c2009] border-t border-b border-r border-gold/30 bg-[#0B0F19] overflow-visible select-none cursor-pointer">
-              
-              <!-- Realistic Book Cover Image -->
-              <div class="relative overflow-hidden rounded-r-lg">
-                <img src="assets/book-cover.jpg" 
-                     alt="OWN THE MACHINE by Warren Croft — Business, Ownership, Control, Legacy" 
-                     class="w-full h-auto object-cover rounded-r-lg block shadow-inner"
-                     loading="eager">
-                
-                <!-- Glossy Foil & Linen Sheen Overlay -->
-                <div class="book-cover-sheen"></div>
-              </div>
-
-              <!-- Physical Page Edges on Right Edge -->
-              <div class="book-edge-pages"></div>
-
-            </div>
-
-            <!-- Floating Badge: Instant Download -->
-            <div class="absolute -bottom-4 -left-4 bg-obsidian-surface/95 border border-gold/45 rounded-lg p-2.5 shadow-xl flex items-center gap-2.5 backdrop-blur-md">
-              <div class="w-8 h-8 rounded-full bg-emerald-500/20 border border-emerald-500/50 flex items-center justify-center text-emerald-400 font-bold">
-                <i data-lucide="check" class="w-4 h-4"></i>
-              </div>
-              <div class="text-left font-mono">
-                <div class="text-[11px] font-bold text-white">100% UNLOCKED</div>
-                <div class="text-[9px] text-slate-400">PDF + 12 Deal Spreadsheets</div>
-              </div>
-            </div>
-
-            <!-- Floating Badge: Price Tag -->
-            <div class="absolute -top-3 -right-3 bg-gradient-to-r from-gold via-gold-light to-gold text-obsidian rounded-full px-3.5 py-1 font-mono font-bold text-xs shadow-lg border border-white/50 flex items-center gap-1.5">
-              <span>$27 USD</span>
-              <span class="text-[10px] line-through text-obsidian/60">$54</span>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-
+  <section class="pt-12 pb-14 md:pt-16 md:pb-20 text-center px-4 sm:px-6 max-w-4xl mx-auto">
+    
+    <!-- Editorial Eyebrow Tag -->
+    <div class="inline-flex items-center gap-2 text-xs font-mono font-bold tracking-[0.14em] text-storefront-accent-light uppercase mb-4">
+      <span>THE 2026 OPERATOR MANUAL & ASSET BLUEPRINT</span>
     </div>
+
+    <!-- Main Headline -->
+    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-serif font-bold text-storefront-cream tracking-tight leading-[1.08] mb-5">
+      Stop chasing the costume. <br />
+      <span class="text-storefront-accent-light font-sans font-semibold tracking-normal text-2xl sm:text-4xl lg:text-5xl block mt-2">
+        Start owning the cash-flow machine.
+      </span>
+    </h1>
+
+    <!-- Subtitle -->
+    <p class="text-storefront-text-strong text-base sm:text-lg md:text-xl font-normal leading-relaxed max-w-2xl mx-auto mb-8">
+      How everyday earners plug personal cash leaks, build a <span class="text-storefront-cream font-semibold underline decoration-storefront-accent-light/60 underline-offset-4">$10k to $50k Acquisition War Chest</span>, and use <strong class="text-storefront-accent-bright font-semibold">Seller Financing</strong> to buy boring, recession-proof businesses that run without them.
+    </p>
+
+    <!-- Primary Hero Action Block -->
+    <div class="flex flex-col items-center justify-center gap-2 mb-6">
+      <a href="https://gumroad.com/l/own-the-machine" 
+         class="gumroad-cta-btn gumroad-button frankie-primary-btn inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-md text-base sm:text-lg font-extrabold tracking-wide">
+        <span>Download The Playbook · $27</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 256 256" aria-hidden="true"><path d="M204,64V168a12,12,0,0,1-24,0V93L72.49,200.49a12,12,0,0,1-17-17L163,76H88a12,12,0,0,1,0-24H192A12,12,0,0,1,204,64Z"></path></svg>
+      </a>
+      <p class="text-xs font-mono text-storefront-text-secondary mt-1">
+        <s class="text-storefront-text-muted">$54</s> · Save $27 today (50% reader discount)
+      </p>
+    </div>
+
+    <!-- Trust Delivery Row (Frankie Finance Style) -->
+    <ul class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs font-mono text-storefront-text-secondary pt-2">
+      <li class="flex items-center gap-1.5">
+        <i data-lucide="check" class="w-4 h-4 text-storefront-accent-light"></i>
+        <span>Instant PDF Download</span>
+      </li>
+      <li class="flex items-center gap-1.5">
+        <i data-lucide="check" class="w-4 h-4 text-storefront-accent-light"></i>
+        <span>12 Deal & Banking Templates</span>
+      </li>
+      <li class="flex items-center gap-1.5">
+        <i data-lucide="lock" class="w-4 h-4 text-storefront-accent-light"></i>
+        <span>Secure checkout via Gumroad</span>
+      </li>
+    </ul>
+
   </section>
 
   <!-- =========================================================================
-       SECTION D: THE "ANTI-GURU" REALITY SECTION (Storytelling Contrast)
+       FRANKIE FINANCE STYLE BOOK SHOWCASE SECTION
   ========================================================================== -->
-  <section id="case-studies" class="py-16 md:py-24 bg-obsidian relative border-b border-slate-800/80">
+  <section id="book-showcase" class="py-12 md:py-16 px-4 sm:px-6 max-w-4xl mx-auto">
+    
+    <!-- Featured Book Showcase Card (Frankie Finance Architecture) -->
+    <article class="bg-storefront-deep-accent border border-storefront-border-featured rounded-lg shadow-frankie-card p-6 sm:p-10 relative text-center flex flex-col items-center">
+      
+      <!-- Floating Badge on Top -->
+      <p class="text-[#171204] bg-storefront-accent-light font-mono text-[10px] sm:text-xs tracking-widest uppercase font-extrabold px-4 py-1.5 rounded-full shadow-md inline-flex items-center gap-1.5 absolute -top-4 left-1/2 -translate-x-1/2 whitespace-nowrap">
+        <i data-lucide="award" class="w-3.5 h-3.5"></i>
+        <span>BEST VALUE · COMPLETE 2026 OPERATOR EDITION</span>
+      </p>
+
+      <!-- Book Cover Image Display (Frankie Finance Style) -->
+      <div class="my-6 max-w-[280px] sm:max-w-[320px] w-full">
+        <img src="assets/book-cover.jpg" 
+             alt="OWN THE MACHINE by Warren Croft — Business, Ownership, Control, Legacy" 
+             class="w-full h-auto object-cover rounded shadow-frankie-cover border border-storefront-border-card"
+             loading="eager">
+      </div>
+
+      <!-- Kicker & Title -->
+      <p class="font-mono text-xs uppercase tracking-widest text-storefront-accent-light font-bold mb-1">
+        THE COMPLETE 2026 MANUAL
+      </p>
+      
+      <h2 class="font-serif text-3xl sm:text-4xl font-extrabold text-storefront-cream mb-2 leading-tight">
+        Own The Machine
+      </h2>
+      
+      <p class="text-sm sm:text-base text-storefront-text-strong font-serif italic max-w-md mx-auto mb-4">
+        Business • Ownership • Control • Legacy
+      </p>
+
+      <!-- Price Block -->
+      <div class="flex items-baseline justify-center gap-2 mb-6">
+        <s class="text-storefront-text-muted font-mono text-base">$54</s>
+        <strong class="text-3xl sm:text-4xl font-mono font-bold text-storefront-cream">$27</strong>
+        <span class="text-xs font-mono text-emerald-400 font-semibold bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/30">Save $27</span>
+      </div>
+
+      <!-- What's Included (Frankie Style Checkmark List) -->
+      <ul class="text-left text-xs sm:text-sm text-storefront-text-strong space-y-3 mb-8 max-w-lg w-full border-t border-b border-storefront-border-subtle py-5">
+        <li class="flex items-start gap-2.5">
+          <i data-lucide="check" class="w-4 h-4 text-storefront-accent-light flex-shrink-0 mt-0.5"></i>
+          <span><strong>Complete 48-Page Fact-Checked Manual</strong> by Warren Croft (PDF).</span>
+        </li>
+        <li class="flex items-start gap-2.5">
+          <i data-lucide="check" class="w-4 h-4 text-storefront-accent-light flex-shrink-0 mt-0.5"></i>
+          <span><strong>All 12 Built-In Assets & Valuation Tables</strong> (SDE, CFLI, and DSCR underwriting models).</span>
+        </li>
+        <li class="flex items-start gap-2.5">
+          <i data-lucide="check" class="w-4 h-4 text-storefront-accent-light flex-shrink-0 mt-0.5"></i>
+          <span><strong>Word-for-Word Seller Financing LOI Template</strong> + the legal "Right of Offset" clause.</span>
+        </li>
+        <li class="flex items-start gap-2.5">
+          <i data-lucide="check" class="w-4 h-4 text-storefront-accent-light flex-shrink-0 mt-0.5"></i>
+          <span><strong>The 90-Day Small Business Due Diligence Checklist</strong> (Appendix A, Page 45).</span>
+        </li>
+        <li class="flex items-start gap-2.5">
+          <i data-lucide="check" class="w-4 h-4 text-storefront-accent-light flex-shrink-0 mt-0.5"></i>
+          <span><strong>The 12-Step Master Execution Roadmap</strong> to Holding Company scale (Page 44).</span>
+        </li>
+        <li class="flex items-start gap-2.5">
+          <i data-lucide="check" class="w-4 h-4 text-storefront-accent-light flex-shrink-0 mt-0.5"></i>
+          <span><strong>21 Verified Academic & Legal Citations</strong> (Harvard, Stanford GSB 35.1% IRR, Wharton).</span>
+        </li>
+      </ul>
+
+      <!-- CTA Button -->
+      <a href="https://gumroad.com/l/own-the-machine" 
+         class="gumroad-cta-btn gumroad-button frankie-primary-btn w-full max-w-md inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded text-base font-extrabold tracking-wide">
+        <span>Get The Complete Playbook · $27</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256" aria-hidden="true"><path d="M204,64V168a12,12,0,0,1-24,0V93L72.49,200.49a12,12,0,0,1-17-17L163,76H88a12,12,0,0,1,0-24H192A12,12,0,0,1,204,64Z"></path></svg>
+      </a>
+      
+      <p class="text-xs font-mono text-storefront-text-secondary mt-3">
+        Instant PDF download · Read on any phone, tablet, or laptop · 30-Day Money-Back Guarantee
+      </p>
+
+    </article>
+
+  </section>
+
+  <!-- =========================================================================
+       SECTION D: THE REALITY CASE STUDIES (Storytelling Contrast)
+  ========================================================================== -->
+  <section id="case-studies" class="py-16 md:py-20 border-t border-storefront-border-subtle bg-storefront-ink-raised/50">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
       
       <!-- Headline & Subheading -->
-      <div class="text-center max-w-3xl mx-auto mb-14">
+      <div class="text-center max-w-3xl mx-auto mb-12">
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-mono text-xs mb-3">
           <i data-lucide="scale" class="w-3.5 h-3.5"></i>
           <span>AUDITED SEC FILINGS & CASE LAW</span>
         </div>
-        <h2 class="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
+        <h2 class="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-storefront-cream mb-3 leading-tight">
           Why $108 Million Still Equals Zero, and a Single Trash Truck Built an $80 Billion Empire.
         </h2>
-        <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+        <p class="text-storefront-text-strong text-sm sm:text-base leading-relaxed">
           The financial press worships high salaries, venture rounds, and lifestyle flexing. The cold corporate balance sheet tells a completely different story.
         </p>
       </div>
 
       <!-- 3 Real-World Case Studies Contrast -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
         
         <!-- Story 1: Antoine Walker -->
-        <div class="bg-obsidian-surface border border-red-900/40 rounded-xl p-6 relative overflow-hidden">
-          <div class="flex items-center justify-between pb-3 border-b border-slate-800 mb-4">
+        <div class="bg-storefront-ink border border-red-900/40 rounded-xl p-6 relative overflow-hidden">
+          <div class="flex items-center justify-between pb-3 border-b border-storefront-border-subtle mb-4">
             <span class="text-red-400 font-mono text-xs font-semibold">CHAPTER 1 • PAGE 3</span>
             <span class="bg-red-500/15 text-red-400 text-[10px] font-mono px-2 py-0.5 rounded border border-red-500/30">THE COSTUME TRAP</span>
           </div>
-          <h3 class="font-serif text-xl font-bold text-white mb-1">Antoine Walker</h3>
+          <h3 class="font-serif text-xl font-bold text-storefront-cream mb-1">Antoine Walker</h3>
           <div class="text-2xl font-mono font-bold text-red-400 mb-3">$108.1M → Bankruptcy</div>
-          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+          <p class="text-storefront-text-secondary text-xs sm:text-sm leading-relaxed">
             Earned $108,142,015 over a celebrated NBA career. Maintained an entourage of 70, bought luxury real estate with personal recourse debt, and chased high-burn status symbols. Filed for Chapter 7 bankruptcy just 24 months after retirement with $12.7M in debt and $4.3M in assets.
           </p>
-          <div class="mt-4 pt-3 border-t border-slate-800 text-[11px] font-mono text-slate-400">
+          <div class="mt-4 pt-3 border-t border-storefront-border-subtle text-[11px] font-mono text-storefront-text-muted">
             Fact: High income without cash-flow mechanics is financial suicide.
           </div>
         </div>
 
         <!-- Story 2: Juicero -->
-        <div class="bg-obsidian-surface border border-red-900/40 rounded-xl p-6 relative overflow-hidden">
-          <div class="flex items-center justify-between pb-3 border-b border-slate-800 mb-4">
+        <div class="bg-storefront-ink border border-red-900/40 rounded-xl p-6 relative overflow-hidden">
+          <div class="flex items-center justify-between pb-3 border-b border-storefront-border-subtle mb-4">
             <span class="text-red-400 font-mono text-xs font-semibold">CHAPTER 5 • PAGE 22</span>
             <span class="bg-red-500/15 text-red-400 text-[10px] font-mono px-2 py-0.5 rounded border border-red-500/30">VC VANITY TRAP</span>
           </div>
-          <h3 class="font-serif text-xl font-bold text-white mb-1">Juicero Inc.</h3>
+          <h3 class="font-serif text-xl font-bold text-storefront-cream mb-1">Juicero Inc.</h3>
           <div class="text-2xl font-mono font-bold text-red-400 mb-3">$118.5M → Zero in 16 Mo</div>
-          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+          <p class="text-storefront-text-secondary text-xs sm:text-sm leading-relaxed">
             Raised $118.5 million in Silicon Valley venture capital for a $699 Wi-Fi fruit-pack press. Bloomberg published a video showing humans could squeeze the juice bags with their bare hands just as fast. The company ceased operations 16 months later.
           </p>
-          <div class="mt-4 pt-3 border-t border-slate-800 text-[11px] font-mono text-slate-400">
+          <div class="mt-4 pt-3 border-t border-storefront-border-subtle text-[11px] font-mono text-storefront-text-muted">
             Fact: Sexy tech evaporates. Cash-flow businesses solve boring, mandatory problems.
           </div>
         </div>
 
         <!-- Story 3: Wayne Huizenga & Ronald Read -->
-        <div class="bg-obsidian-surface border border-emerald-500/40 rounded-xl p-6 relative overflow-hidden bg-gradient-to-b from-emerald-950/20 to-transparent">
-          <div class="flex items-center justify-between pb-3 border-b border-slate-800 mb-4">
+        <div class="bg-storefront-ink border border-emerald-500/40 rounded-xl p-6 relative overflow-hidden bg-gradient-to-b from-emerald-950/20 to-transparent">
+          <div class="flex items-center justify-between pb-3 border-b border-storefront-border-subtle mb-4">
             <span class="text-emerald-400 font-mono text-xs font-semibold">CHAPTERS 5 & 12</span>
             <span class="bg-emerald-500/15 text-emerald-400 text-[10px] font-mono px-2 py-0.5 rounded border border-emerald-500/30">THE MACHINE MODEL</span>
           </div>
-          <h3 class="font-serif text-xl font-bold text-white mb-1">Huizenga & Ronald Read</h3>
+          <h3 class="font-serif text-xl font-bold text-storefront-cream mb-1">Huizenga & Ronald Read</h3>
           <div class="text-2xl font-mono font-bold text-emerald-400 mb-3">$5,000 → $80B+ Empire</div>
-          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+          <p class="text-storefront-text-secondary text-xs sm:text-sm leading-relaxed">
             Wayne Huizenga borrowed $5,000 for a beat-up 1956 truck, collected trash at 2:00 AM, and rolled up 130 local routes into Waste Management ($80B+ market cap). Ronald Read swept floors at JCPenney, lived on cash surplus, and left $7,985,620 to his local hospital and library.
           </p>
-          <div class="mt-4 pt-3 border-t border-slate-800 text-[11px] font-mono text-emerald-400">
+          <div class="mt-4 pt-3 border-t border-storefront-border-subtle text-[11px] font-mono text-emerald-400">
             Fact: Boring is your moat. Cash flow compounds in silence.
           </div>
         </div>
@@ -436,15 +385,15 @@
       </div>
 
       <!-- Authoritative Pull-Quote Box -->
-      <div class="bg-gradient-to-r from-obsidian-surface via-[#141C30] to-obsidian-surface border-l-4 border-l-gold border-y border-r border-gold/30 rounded-r-xl p-6 sm:p-8 my-8 shadow-luxury-card text-center md:text-left flex flex-col md:flex-row items-center gap-6">
-        <div class="w-14 h-14 rounded-full bg-gold/10 border border-gold/40 flex items-center justify-center flex-shrink-0 text-gold font-serif text-3xl">
-          <i data-lucide="quote" class="w-6 h-6 text-gold"></i>
+      <div class="bg-storefront-deep-accent border-l-4 border-l-storefront-accent-light border border-storefront-border-card rounded-r-xl p-6 sm:p-8 my-6 text-center md:text-left flex flex-col md:flex-row items-center gap-6">
+        <div class="w-12 h-12 rounded-full bg-storefront-accent-light/10 border border-storefront-border-card flex items-center justify-center flex-shrink-0 text-storefront-accent-light">
+          <i data-lucide="quote" class="w-5 h-5"></i>
         </div>
         <div>
-          <blockquote class="font-serif text-xl sm:text-2xl text-white font-medium italic leading-snug mb-2">
+          <blockquote class="font-serif text-lg sm:text-xl text-storefront-cream font-medium italic leading-snug mb-1">
             "An asset puts net cash into your bank account every month. A liability takes net cash out. Boring is your moat."
           </blockquote>
-          <div class="font-mono text-xs text-gold uppercase tracking-wider">
+          <div class="font-mono text-xs text-storefront-accent-light uppercase tracking-wider">
             Warren Croft — OWN THE MACHINE, CHAPTER 1: THE NET-CASH ILLUSION (PAGE 4)
           </div>
         </div>
@@ -456,19 +405,19 @@
   <!-- =========================================================================
        INTERACTIVE TOOL: THE 30-MINUTE DSCR NAPKIN CALCULATOR
   ========================================================================== -->
-  <section class="py-14 bg-[#090D1A] border-b border-slate-800/80">
+  <section class="py-14 border-t border-storefront-border-subtle bg-storefront-ink">
     <div class="max-w-4xl mx-auto px-4 sm:px-6">
       
-      <div class="bg-obsidian-surface border border-gold/35 rounded-2xl p-6 sm:p-8 shadow-luxury-card relative">
+      <div class="bg-storefront-ink-raised border border-storefront-border-card rounded-2xl p-6 sm:p-8 shadow-frankie-card relative">
         <div class="text-center mb-6">
-          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded bg-gold/15 text-gold text-xs font-mono font-semibold mb-2 border border-gold/30">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded bg-storefront-accent-light/15 text-storefront-accent-light text-xs font-mono font-semibold mb-2 border border-storefront-border-card">
             <i data-lucide="calculator" class="w-3.5 h-3.5"></i>
             <span>INTERACTIVE ASSET 6.1 PREVIEW • PAGE 27</span>
           </span>
-          <h3 class="font-serif text-xl sm:text-2xl font-bold text-white">
+          <h3 class="font-serif text-xl sm:text-2xl font-bold text-storefront-cream">
             The 30-Minute Underwriting Napkin Test: Can You Buy This Business?
           </h3>
-          <p class="text-slate-300 text-xs sm:text-sm mt-1">
+          <p class="text-storefront-text-secondary text-xs sm:text-sm mt-1">
             Test any small business acquisition against the strict <strong>1.50x DSCR Coverage Rule</strong> from Chapter 6.
           </p>
         </div>
@@ -478,52 +427,52 @@
           <!-- Input Controls -->
           <div class="space-y-4">
             <div>
-              <div class="flex justify-between items-center text-xs font-mono text-slate-300 mb-1.5">
+              <div class="flex justify-between items-center text-xs font-mono text-storefront-text-strong mb-1.5">
                 <span>Purchase Price:</span>
-                <span id="display-price" class="text-gold font-bold text-sm">$350,000</span>
+                <span id="display-price" class="text-storefront-accent-light font-bold text-sm">$350,000</span>
               </div>
               <input type="range" id="input-price" min="100000" max="1000000" step="25000" value="350000" 
-                     class="w-full accent-gold bg-slate-700 h-2 rounded-lg cursor-pointer">
+                     class="w-full accent-storefront-accent-light bg-slate-800 h-2 rounded-lg cursor-pointer">
             </div>
 
             <div>
-              <div class="flex justify-between items-center text-xs font-mono text-slate-300 mb-1.5">
+              <div class="flex justify-between items-center text-xs font-mono text-storefront-text-strong mb-1.5">
                 <span>Annual SDE (Seller Cash Flow):</span>
                 <span id="display-sde" class="text-emerald-400 font-bold text-sm">$125,000</span>
               </div>
               <input type="range" id="input-sde" min="40000" max="350000" step="5000" value="125000" 
-                     class="w-full accent-emerald-500 bg-slate-700 h-2 rounded-lg cursor-pointer">
+                     class="w-full accent-emerald-500 bg-slate-800 h-2 rounded-lg cursor-pointer">
             </div>
 
             <div>
-              <div class="flex justify-between items-center text-xs font-mono text-slate-300 mb-1.5">
+              <div class="flex justify-between items-center text-xs font-mono text-storefront-text-strong mb-1.5">
                 <span>Seller Financing Pct:</span>
-                <span id="display-seller-pct" class="text-white font-bold text-sm">70%</span>
+                <span id="display-seller-pct" class="text-storefront-cream font-bold text-sm">70%</span>
               </div>
               <input type="range" id="input-seller-pct" min="40" max="80" step="5" value="70" 
-                     class="w-full accent-gold bg-slate-700 h-2 rounded-lg cursor-pointer">
-              <div class="text-right text-[11px] font-mono text-slate-400 mt-1">
-                Cash Down Required: <span id="display-down-payment" class="text-gold font-semibold">$35,000 (10%)</span>
+                     class="w-full accent-storefront-accent-light bg-slate-800 h-2 rounded-lg cursor-pointer">
+              <div class="text-right text-[11px] font-mono text-storefront-text-secondary mt-1">
+                Cash Down Required: <span id="display-down-payment" class="text-storefront-accent-light font-semibold">$35,000 (10%)</span>
               </div>
             </div>
           </div>
 
           <!-- Calculated Output Card -->
-          <div class="bg-[#070A12] rounded-xl p-5 border border-slate-700/80 space-y-3 shadow-inner">
-            <div class="flex justify-between items-center text-xs font-mono pb-2 border-b border-slate-800">
-              <span class="text-slate-400">Annual Debt Service (P&I):</span>
-              <span id="calc-debt-service" class="text-white font-semibold">$45,800/yr</span>
+          <div class="bg-storefront-ink rounded-xl p-5 border border-storefront-border-subtle space-y-3">
+            <div class="flex justify-between items-center text-xs font-mono pb-2 border-b border-storefront-border-subtle">
+              <span class="text-storefront-text-muted">Annual Debt Service (P&I):</span>
+              <span id="calc-debt-service" class="text-storefront-cream font-semibold">$45,800/yr</span>
             </div>
-            <div class="flex justify-between items-center text-xs font-mono pb-2 border-b border-slate-800">
-              <span class="text-slate-400">Net Owner Free Cash:</span>
+            <div class="flex justify-between items-center text-xs font-mono pb-2 border-b border-storefront-border-subtle">
+              <span class="text-storefront-text-muted">Net Owner Free Cash:</span>
               <span id="calc-net-cash" class="text-emerald-400 font-bold text-base">$79,200/yr</span>
             </div>
-            <div class="flex justify-between items-center text-xs font-mono pb-2 border-b border-slate-800">
-              <span class="text-slate-400">Cash-on-Cash Return:</span>
-              <span id="calc-coc" class="text-gold font-bold text-base">226.3%</span>
+            <div class="flex justify-between items-center text-xs font-mono pb-2 border-b border-storefront-border-subtle">
+              <span class="text-storefront-text-muted">Cash-on-Cash Return:</span>
+              <span id="calc-coc" class="text-storefront-accent-light font-bold text-base">226.3%</span>
             </div>
             <div class="flex justify-between items-center text-xs font-mono pt-1">
-              <span class="text-slate-300 font-bold">DSCR Coverage Ratio:</span>
+              <span class="text-storefront-text-strong font-bold">DSCR Coverage Ratio:</span>
               <span id="calc-dscr" class="text-emerald-400 font-mono font-bold text-lg">2.73x</span>
             </div>
 
@@ -535,12 +484,12 @@
 
         </div>
 
-        <div class="mt-5 text-center">
-          <p class="text-xs text-slate-400 font-mono mb-3">
+        <div class="mt-6 text-center">
+          <p class="text-xs text-storefront-text-secondary font-mono mb-3">
             Full 2-Offer Seller Financing LOI + 90-Day Due Diligence Checklist included on Pages 27–31 and Page 45.
           </p>
           <a href="https://gumroad.com/l/own-the-machine" 
-             class="gumroad-cta-btn gumroad-button inline-flex items-center gap-1.5 px-6 py-2.5 rounded-lg bg-emerald-500 hover:bg-emerald-600 text-obsidian font-bold text-xs sm:text-sm font-mono tracking-wide transition shadow-sm">
+             class="gumroad-cta-btn gumroad-button frankie-primary-btn inline-flex items-center gap-1.5 px-6 py-2.5 rounded text-xs sm:text-sm font-mono tracking-wide">
             <span>Unlock Full LOI Contract & Spreadsheet — $27</span>
             <i data-lucide="download" class="w-4 h-4"></i>
           </a>
@@ -551,10 +500,10 @@
   </section>
 
   <!-- =========================================================================
-       SECTION E: COMPLETE 12-CHAPTER CURRICULUM & BOOK BREAKDOWN
+       SECTION E: COMPLETE 12-CHAPTER CURRICULUM
        ("Inside The Pages" Archival Parchment Section)
   ========================================================================== -->
-  <section id="curriculum-breakdown" class="py-16 md:py-24 parchment-texture text-parchment-text relative border-y-4 border-gold">
+  <section id="curriculum-breakdown" class="py-16 md:py-24 parchment-texture text-parchment-text relative border-y-4 border-storefront-accent">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
       
       <!-- Section Header -->
@@ -574,7 +523,7 @@
       <div class="space-y-6">
 
         <!-- PART I -->
-        <div class="bg-parchment-card border-2 border-parchment-border rounded-xl p-6 sm:p-8 shadow-parchment-depth">
+        <div class="bg-parchment-card border-2 border-parchment-border rounded-xl p-6 sm:p-8 shadow-sm">
           <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-parchment-border mb-6 gap-2">
             <div>
               <span class="font-mono text-xs text-[#8B6B23] font-bold uppercase tracking-widest">PART I</span>
@@ -586,7 +535,6 @@
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            
             <div class="space-y-2">
               <div class="flex items-start gap-2">
                 <span class="font-mono font-bold text-[#8B6B23] text-sm mt-0.5">CH 1:</span>
@@ -634,12 +582,11 @@
                 </div>
               </div>
             </div>
-
           </div>
         </div>
 
         <!-- PART II -->
-        <div class="bg-parchment-card border-2 border-parchment-border rounded-xl p-6 sm:p-8 shadow-parchment-depth">
+        <div class="bg-parchment-card border-2 border-parchment-border rounded-xl p-6 sm:p-8 shadow-sm">
           <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-parchment-border mb-6 gap-2">
             <div>
               <span class="font-mono text-xs text-[#8B6B23] font-bold uppercase tracking-widest">PART II</span>
@@ -651,7 +598,6 @@
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            
             <div class="space-y-2">
               <div class="flex items-start gap-2">
                 <span class="font-mono font-bold text-[#8B6B23] text-sm mt-0.5">CH 5:</span>
@@ -699,12 +645,11 @@
                 </div>
               </div>
             </div>
-
           </div>
         </div>
 
         <!-- PART III -->
-        <div class="bg-parchment-card border-2 border-parchment-border rounded-xl p-6 sm:p-8 shadow-parchment-depth">
+        <div class="bg-parchment-card border-2 border-parchment-border rounded-xl p-6 sm:p-8 shadow-sm">
           <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-parchment-border mb-6 gap-2">
             <div>
               <span class="font-mono text-xs text-[#8B6B23] font-bold uppercase tracking-widest">PART III</span>
@@ -716,7 +661,6 @@
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            
             <div class="space-y-2">
               <div class="flex items-start gap-2">
                 <span class="font-mono font-bold text-[#8B6B23] text-sm mt-0.5">CH 10:</span>
@@ -752,7 +696,6 @@
                 </div>
               </div>
             </div>
-
           </div>
         </div>
 
@@ -792,9 +735,9 @@
       <!-- Parchment Section CTA -->
       <div class="mt-12 text-center">
         <a href="https://gumroad.com/l/own-the-machine" 
-           class="gumroad-cta-btn gumroad-button inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-[#111827] hover:bg-black text-gold font-bold text-base tracking-wide transition shadow-xl border border-gold/40">
+           class="gumroad-cta-btn gumroad-button inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-[#111827] hover:bg-black text-storefront-accent-light font-bold text-base tracking-wide transition shadow-xl border border-storefront-accent-light/40">
           <span>Get The Complete 48-Page Playbook for $27</span>
-          <i data-lucide="arrow-right" class="w-4 h-4 text-gold"></i>
+          <i data-lucide="arrow-right" class="w-4 h-4 text-storefront-accent-light"></i>
         </a>
       </div>
 
@@ -804,17 +747,17 @@
   <!-- =========================================================================
        SECTION F: "WHO THIS PLAYBOOK IS BUILT FOR" (and Who Should Skip It)
   ========================================================================== -->
-  <section class="py-16 md:py-24 bg-obsidian relative border-b border-slate-800/80">
+  <section class="py-16 md:py-24 border-t border-storefront-border-subtle bg-storefront-ink">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
       
-      <div class="text-center max-w-2xl mx-auto mb-14">
-        <span class="inline-block px-3 py-1 rounded bg-slate-800 text-slate-300 font-mono text-xs uppercase mb-3">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="inline-block px-3 py-1 rounded bg-storefront-ink-raised border border-storefront-border-subtle text-storefront-text-secondary font-mono text-xs uppercase mb-3">
           SELF-SELECTION FILTER
         </span>
-        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mb-3">
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-storefront-cream mb-3">
           Who This Playbook Is Built For.
         </h2>
-        <p class="text-slate-400 text-sm sm:text-base">
+        <p class="text-storefront-text-secondary text-sm sm:text-base">
           This manual is written for serious operators. Please read this filter before purchasing.
         </p>
       </div>
@@ -822,12 +765,12 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         
         <!-- Built For (Green Card) -->
-        <div class="bg-obsidian-surface border-2 border-emerald-500/40 rounded-2xl p-7 sm:p-8 relative">
+        <div class="bg-storefront-ink-raised border-2 border-emerald-500/40 rounded-2xl p-7 sm:p-8 relative">
           <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-400 font-mono text-xs font-bold mb-4 border border-emerald-500/30">
             <i data-lucide="check" class="w-4 h-4"></i> BUILT SPECIFICALLY FOR:
           </div>
           
-          <ul class="space-y-4 text-sm sm:text-base text-slate-200">
+          <ul class="space-y-4 text-sm sm:text-base text-storefront-cream">
             <li class="flex items-start gap-3">
               <i data-lucide="check-circle" class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5"></i>
               <span><strong>Salaried Earners & Professionals</strong> earning $60k to $250k who are tired of trading 50 hours a week for a paycheck and want to convert income surplus into cash-flowing assets.</span>
@@ -848,12 +791,12 @@
         </div>
 
         <!-- NOT Built For (Red Card) -->
-        <div class="bg-obsidian-surface border-2 border-red-900/40 rounded-2xl p-7 sm:p-8 relative">
+        <div class="bg-storefront-ink-raised border-2 border-red-900/40 rounded-2xl p-7 sm:p-8 relative">
           <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-red-500/15 text-red-400 font-mono text-xs font-bold mb-4 border border-red-500/30">
             <i data-lucide="x" class="w-4 h-4"></i> DO NOT BUY IF:
           </div>
           
-          <ul class="space-y-4 text-sm sm:text-base text-slate-300">
+          <ul class="space-y-4 text-sm sm:text-base text-storefront-text-secondary">
             <li class="flex items-start gap-3">
               <i data-lucide="x-circle" class="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5"></i>
               <span><strong>You are looking for crypto memes,</strong> day-trading speculation, dropshipping courses, or flashy overnight wealth loopholes.</span>
@@ -879,145 +822,19 @@
   </section>
 
   <!-- =========================================================================
-       SECTION G: PRICING & VALUE STACK BOX (The Conversion Engine)
+       SECTION H: FREQUENTLY ASKED QUESTIONS
   ========================================================================== -->
-  <section id="pricing-value-stack" class="py-16 md:py-24 bg-gradient-to-b from-obsidian via-[#0A0F1E] to-obsidian relative border-b border-slate-800/80">
-    <div class="max-w-3xl mx-auto px-4 sm:px-6">
-      
-      <!-- Luxury Pricing Card with Gold Border -->
-      <div class="bg-obsidian-surface border-2 border-gold/70 rounded-3xl p-6 sm:p-10 shadow-2xl relative overflow-hidden">
-        
-        <!-- Top Ribbon -->
-        <div class="absolute -top-1 left-1/2 -translate-x-1/2 bg-gradient-to-r from-gold via-gold-light to-gold text-obsidian px-6 py-1.5 rounded-b-xl font-mono text-xs font-bold tracking-wider uppercase shadow-md flex items-center gap-1.5">
-          <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
-          <span>COMPLETE 2026 OPERATOR PACKAGE</span>
-        </div>
-
-        <div class="text-center pt-5 mb-8">
-          <span class="text-xs font-mono tracking-widest text-gold uppercase">INSTANT DIGITAL DELIVERY VIA GUMROAD</span>
-          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-1 mb-2">
-            Own The Machine Playbook
-          </h2>
-          <p class="text-slate-300 text-sm sm:text-base font-serif italic">
-            Everything you need to audit your cash, structure seller financing, and scale a boring business holding company.
-          </p>
-        </div>
-
-        <!-- Itemized Value Stack List -->
-        <div class="bg-[#070A12] rounded-2xl p-5 sm:p-6 border border-slate-800 mb-8 space-y-4">
-          
-          <div class="flex items-center justify-between gap-3 pb-3 border-b border-slate-800 text-xs sm:text-sm">
-            <div class="flex items-center gap-2.5 text-white">
-              <i data-lucide="book-marked" class="w-4 h-4 text-emerald-400 flex-shrink-0"></i>
-              <span><strong>Own The Machine by Warren Croft</strong> (48-Page Fact-Checked Manual)</span>
-            </div>
-            <span class="font-mono text-slate-400 flex-shrink-0">$97 Value</span>
-          </div>
-
-          <div class="flex items-center justify-between gap-3 pb-3 border-b border-slate-800 text-xs sm:text-sm">
-            <div class="flex items-center gap-2.5 text-white">
-              <i data-lucide="table" class="w-4 h-4 text-emerald-400 flex-shrink-0"></i>
-              <span><strong>All 12 Built-In Assets & Valuation Tables</strong> (SDE, CFLI, DSCR)</span>
-            </div>
-            <span class="font-mono text-slate-400 flex-shrink-0">$147 Value</span>
-          </div>
-
-          <div class="flex items-center justify-between gap-3 pb-3 border-b border-slate-800 text-xs sm:text-sm">
-            <div class="flex items-center gap-2.5 text-white">
-              <i data-lucide="file-text" class="w-4 h-4 text-emerald-400 flex-shrink-0"></i>
-              <span><strong>The Two-Offer Seller Financing LOI Template</strong> (Word-for-Word Clause)</span>
-            </div>
-            <span class="font-mono text-slate-400 flex-shrink-0">$97 Value</span>
-          </div>
-
-          <div class="flex items-center justify-between gap-3 pb-3 border-b border-slate-800 text-xs sm:text-sm">
-            <div class="flex items-center gap-2.5 text-white">
-              <i data-lucide="clipboard-check" class="w-4 h-4 text-emerald-400 flex-shrink-0"></i>
-              <span><strong>The 90-Day Small Business Due Diligence Checklist</strong> (Appendix A)</span>
-            </div>
-            <span class="font-mono text-slate-400 flex-shrink-0">$79 Value</span>
-          </div>
-
-          <div class="flex items-center justify-between gap-3 pb-3 border-b border-slate-800 text-xs sm:text-sm">
-            <div class="flex items-center gap-2.5 text-white">
-              <i data-lucide="map" class="w-4 h-4 text-emerald-400 flex-shrink-0"></i>
-              <span><strong>The 12-Step Master Execution Roadmap</strong> (Asset 12.1, Page 44)</span>
-            </div>
-            <span class="font-mono text-slate-400 flex-shrink-0">$77 Value</span>
-          </div>
-
-          <!-- Total Value & Price Anchor -->
-          <div class="pt-2 flex items-center justify-between text-xs font-mono text-slate-400">
-            <span>TOTAL COMBINED VALUE:</span>
-            <span class="line-through text-slate-400 font-bold">$497.00 USD</span>
-          </div>
-          <div class="flex items-center justify-between text-xs font-mono text-slate-400">
-            <span>REGULAR RETAIL PRICE:</span>
-            <span class="line-through text-slate-400 font-bold">$54.00 USD</span>
-          </div>
-        </div>
-
-        <!-- Big Price Anchor Display -->
-        <div class="text-center mb-6">
-          <div class="text-xs font-mono text-gold uppercase tracking-wider mb-1">
-            TODAY'S SPECIAL READER DISCOUNT
-          </div>
-          <div class="flex items-baseline justify-center gap-3">
-            <span class="font-mono text-5xl sm:text-6xl font-black text-white">$27</span>
-            <span class="font-mono text-xl text-slate-400 line-through">$54 USD</span>
-          </div>
-          <div class="text-xs font-mono text-emerald-400 font-semibold mt-1">
-            One-Time Payment • Instant Digital Delivery • Lifetime Updates
-          </div>
-        </div>
-
-        <!-- Big CTA Button -->
-        <div class="space-y-3">
-          <a href="https://gumroad.com/l/own-the-machine" 
-             class="gumroad-cta-btn gumroad-button cta-glow-pulse w-full inline-flex items-center justify-center gap-3 py-4 sm:py-5 px-8 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-obsidian font-extrabold text-lg sm:text-xl tracking-wide transition shadow-lg transform hover:-translate-y-0.5 font-sans">
-            <i data-lucide="download" class="w-6 h-6 text-obsidian"></i>
-            <span>Download The Complete Playbook — $27</span>
-          </a>
-
-          <!-- Guarantee Badge -->
-          <div class="flex items-center justify-center gap-2 text-xs text-slate-300 font-mono pt-2">
-            <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
-            <span>30-Day 100% Money-Back Satisfaction Guarantee</span>
-          </div>
-        </div>
-
-        <!-- Security Badges -->
-        <div class="mt-6 pt-5 border-t border-slate-800 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-[11px] font-mono text-slate-400">
-          <span class="flex items-center gap-1">
-            <i data-lucide="lock" class="w-3.5 h-3.5 text-gold"></i> 256-Bit SSL Encrypted
-          </span>
-          <span class="flex items-center gap-1">
-            <i data-lucide="credit-card" class="w-3.5 h-3.5 text-gold"></i> Visa, MC, Amex, Apple Pay, Google Pay
-          </span>
-          <span class="flex items-center gap-1">
-            <i data-lucide="zap" class="w-3.5 h-3.5 text-emerald-400"></i> Instant 3-Second Delivery
-          </span>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- =========================================================================
-       SECTION H: FREQUENTLY ASKED QUESTIONS (Objection Crusher)
-  ========================================================================== -->
-  <section id="faq-section" class="py-16 md:py-24 bg-[#060913] relative border-b border-slate-800/80">
+  <section id="faq-section" class="py-16 md:py-24 border-t border-storefront-border-subtle bg-storefront-ink-raised/40">
     <div class="max-w-4xl mx-auto px-4 sm:px-6">
       
-      <div class="text-center max-w-2xl mx-auto mb-14">
-        <span class="inline-block px-3 py-1 rounded bg-slate-800 text-slate-300 font-mono text-xs uppercase mb-3">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="inline-block px-3 py-1 rounded bg-storefront-ink border border-storefront-border-subtle text-storefront-text-secondary font-mono text-xs uppercase mb-3">
           CLEAR ANSWERS
         </span>
-        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mb-3">
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-storefront-cream mb-3">
           Frequently Asked Questions
         </h2>
-        <p class="text-slate-400 text-sm sm:text-base">
+        <p class="text-storefront-text-secondary text-sm sm:text-base">
           Straightforward answers before you download the manual.
         </p>
       </div>
@@ -1025,12 +842,12 @@
       <div class="space-y-4">
 
         <!-- FAQ 1 -->
-        <div class="faq-item bg-obsidian-surface border border-slate-800 rounded-xl overflow-hidden transition">
-          <button onclick="toggleFaq(this)" class="w-full text-left p-5 flex items-center justify-between gap-4 font-serif text-base sm:text-lg font-bold text-white hover:text-gold transition">
+        <div class="faq-item bg-storefront-ink border border-storefront-border-subtle rounded-xl overflow-hidden transition">
+          <button onclick="toggleFaq(this)" class="w-full text-left p-5 flex items-center justify-between gap-4 font-serif text-base sm:text-lg font-bold text-storefront-cream hover:text-storefront-accent-light transition">
             <span>1. How is the book delivered, and can I read it on my phone?</span>
-            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-gold transition-transform duration-300"></i>
+            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-storefront-accent-light transition-transform duration-300"></i>
           </button>
-          <div class="faq-content hidden px-5 pb-5 pt-1 text-slate-300 text-xs sm:text-sm leading-relaxed border-t border-slate-800/80">
+          <div class="faq-content hidden px-5 pb-5 pt-1 text-storefront-text-strong text-xs sm:text-sm leading-relaxed border-t border-storefront-border-subtle">
             <p>
               The manual is delivered as an instant, high-resolution PDF immediately after checkout via Gumroad. You can read it seamlessly in Apple Books, Kindle, Adobe Acrobat, Google Drive, or any browser across your iPhone, Android, iPad, Mac, or PC. You can also print the manual out for physical reference.
             </p>
@@ -1038,12 +855,12 @@
         </div>
 
         <!-- FAQ 2 -->
-        <div class="faq-item bg-obsidian-surface border border-slate-800 rounded-xl overflow-hidden transition">
-          <button onclick="toggleFaq(this)" class="w-full text-left p-5 flex items-center justify-between gap-4 font-serif text-base sm:text-lg font-bold text-white hover:text-gold transition">
+        <div class="faq-item bg-storefront-ink border border-storefront-border-subtle rounded-xl overflow-hidden transition">
+          <button onclick="toggleFaq(this)" class="w-full text-left p-5 flex items-center justify-between gap-4 font-serif text-base sm:text-lg font-bold text-storefront-cream hover:text-storefront-accent-light transition">
             <span>2. Do I already need $50,000 in the bank to use this playbook?</span>
-            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-gold transition-transform duration-300"></i>
+            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-storefront-accent-light transition-transform duration-300"></i>
           </button>
-          <div class="faq-content hidden px-5 pb-5 pt-1 text-slate-300 text-xs sm:text-sm leading-relaxed border-t border-slate-800/80">
+          <div class="faq-content hidden px-5 pb-5 pt-1 text-storefront-text-strong text-xs sm:text-sm leading-relaxed border-t border-storefront-border-subtle">
             <p>
               No. That is precisely why Part I (Pages 3–21) exists. Chapters 1 through 4 teach you the <strong>4-Account Banking Membrane</strong> and <strong>4-Lever War Chest Accelerator</strong> to automate your personal cash surplus and build your first $10,000 to $25,000 war chest on a normal salary. Chapters 6 and 7 show you how to structure 60% to 80% Seller Financing or launch low-capital commercial route services where initial equipment costs are under $3,000.
             </p>
@@ -1051,12 +868,12 @@
         </div>
 
         <!-- FAQ 3 -->
-        <div class="faq-item bg-obsidian-surface border border-slate-800 rounded-xl overflow-hidden transition">
-          <button onclick="toggleFaq(this)" class="w-full text-left p-5 flex items-center justify-between gap-4 font-serif text-base sm:text-lg font-bold text-white hover:text-gold transition">
+        <div class="faq-item bg-storefront-ink border border-storefront-border-subtle rounded-xl overflow-hidden transition">
+          <button onclick="toggleFaq(this)" class="w-full text-left p-5 flex items-center justify-between gap-4 font-serif text-base sm:text-lg font-bold text-storefront-cream hover:text-storefront-accent-light transition">
             <span>3. Are the case studies, formulas, and citations real?</span>
-            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-gold transition-transform duration-300"></i>
+            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-storefront-accent-light transition-transform duration-300"></i>
           </button>
-          <div class="faq-content hidden px-5 pb-5 pt-1 text-slate-300 text-xs sm:text-sm leading-relaxed border-t border-slate-800/80">
+          <div class="faq-content hidden px-5 pb-5 pt-1 text-storefront-text-strong text-xs sm:text-sm leading-relaxed border-t border-storefront-border-subtle">
             <p>
               100% verified. Every chapter is backed by public SEC records, actual bankruptcy filings (including Antoine Walker’s Chapter 7 court records), and peer-reviewed studies. Appendix C (Pages 47–48) provides all 21 academic and case law citations, including Stanford GSB’s Search Fund Studies proving a 35.1% historical aggregate IRR for small business acquisitions, Harvard Business School M&A cases, and corporate veil precedents from <em>Walkovszky v. Carlton</em>.
             </p>
@@ -1064,12 +881,12 @@
         </div>
 
         <!-- FAQ 4 -->
-        <div class="faq-item bg-obsidian-surface border border-slate-800 rounded-xl overflow-hidden transition">
-          <button onclick="toggleFaq(this)" class="w-full text-left p-5 flex items-center justify-between gap-4 font-serif text-base sm:text-lg font-bold text-white hover:text-gold transition">
+        <div class="faq-item bg-storefront-ink border border-storefront-border-subtle rounded-xl overflow-hidden transition">
+          <button onclick="toggleFaq(this)" class="w-full text-left p-5 flex items-center justify-between gap-4 font-serif text-base sm:text-lg font-bold text-storefront-cream hover:text-storefront-accent-light transition">
             <span>4. Does this framework work outside the United States?</span>
-            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-gold transition-transform duration-300"></i>
+            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-storefront-accent-light transition-transform duration-300"></i>
           </button>
-          <div class="faq-content hidden px-5 pb-5 pt-1 text-slate-300 text-xs sm:text-sm leading-relaxed border-t border-slate-800/80">
+          <div class="faq-content hidden px-5 pb-5 pt-1 text-storefront-text-strong text-xs sm:text-sm leading-relaxed border-t border-storefront-border-subtle">
             <p>
               Yes. Cash-flow math, debt service coverage ratios (DSCR), the 4-Account automated banking engine, 80/20 turnaround levers, and Seller Promissory Notes operate on fundamental economic principles that apply universally in Canada, the UK, Australia, Europe, and beyond. In common-law and civil-law jurisdictions alike, the principle of HoldCo/OpCo liability separation remains standard practice.
             </p>
@@ -1077,14 +894,14 @@
         </div>
 
         <!-- FAQ 5 -->
-        <div class="faq-item bg-obsidian-surface border border-slate-800 rounded-xl overflow-hidden transition">
-          <button onclick="toggleFaq(this)" class="w-full text-left p-5 flex items-center justify-between gap-4 font-serif text-base sm:text-lg font-bold text-white hover:text-gold transition">
-            <span>5. Does this edition contain the exact tables and scripts from the Facebook videos?</span>
-            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-gold transition-transform duration-300"></i>
+        <div class="faq-item bg-storefront-ink border border-storefront-border-subtle rounded-xl overflow-hidden transition">
+          <button onclick="toggleFaq(this)" class="w-full text-left p-5 flex items-center justify-between gap-4 font-serif text-base sm:text-lg font-bold text-storefront-cream hover:text-storefront-accent-light transition">
+            <span>5. Does this edition contain the exact tables and scripts from the manual?</span>
+            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-storefront-accent-light transition-transform duration-300"></i>
           </button>
-          <div class="faq-content hidden px-5 pb-5 pt-1 text-slate-300 text-xs sm:text-sm leading-relaxed border-t border-slate-800/80">
+          <div class="faq-content hidden px-5 pb-5 pt-1 text-storefront-text-strong text-xs sm:text-sm leading-relaxed border-t border-storefront-border-subtle">
             <p>
-              Yes, verbatim. Every graphic, table, phone script, contract clause, and formula cited by page number in our Facebook video series is printed inside this 2026 Complete Operator Edition. When a video refers to Table 5.1 on Page 24 or the Right of Offset Clause on Page 30, that is the exact location in this document.
+              Yes, verbatim. Every single graphic, table, phone script, contract clause, and formula cited by page number is printed inside this 2026 Complete Operator Edition. When you need Table 5.1 on Page 24 or the Right of Offset Clause on Page 30, that is the exact location in this manual.
             </p>
           </div>
         </div>
@@ -1092,46 +909,43 @@
       </div>
 
       <!-- FAQ Bottom Support Callout -->
-      <div class="mt-10 p-5 rounded-xl bg-obsidian-surface border border-slate-800 text-center text-xs text-slate-400 font-mono">
-        Have an additional question before ordering? Reach our team directly at <a href="mailto:support@aliveoldmoney.shop" class="text-gold underline">support@aliveoldmoney.shop</a>.
+      <div class="mt-10 p-5 rounded-xl bg-storefront-ink border border-storefront-border-subtle text-center text-xs text-storefront-text-secondary font-mono">
+        Have an additional question before ordering? Reach our team directly at <a href="mailto:support@aliveoldmoney.shop" class="text-storefront-accent-light underline">support@aliveoldmoney.shop</a>.
       </div>
 
     </div>
   </section>
 
   <!-- =========================================================================
-       SECTION I: FOOTER & LEGAL DISCLAIMER
+       FOOTER & LEGAL DISCLAIMER
   ========================================================================== -->
-  <footer class="bg-obsidian py-14 border-t border-slate-800 text-slate-400 text-xs font-sans">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+  <footer class="border-t border-storefront-border-subtle bg-storefront-ink py-14 text-storefront-text-secondary text-xs font-sans">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
       
       <!-- Top Footer Brand -->
-      <div class="flex flex-col sm:flex-row items-center justify-between pb-8 border-b border-slate-800/80 gap-4 text-center sm:text-left">
+      <div class="flex flex-col sm:flex-row items-center justify-between pb-8 border-b border-storefront-border-subtle gap-4 text-center sm:text-left">
         <div>
           <div class="flex items-center justify-center sm:justify-start gap-2">
-            <i data-lucide="landmark" class="w-4 h-4 text-gold"></i>
-            <span class="font-cinzel text-base font-bold tracking-[0.2em] text-gold">
+            <i data-lucide="landmark" class="w-4 h-4 text-storefront-accent-light"></i>
+            <span class="font-cinzel text-base font-bold tracking-[0.2em] text-storefront-cream">
               ALIVE OLD MONEY
             </span>
           </div>
-          <div class="text-[11px] font-mono text-slate-400 mt-0.5">
-            Domain: aliveoldmoney.shop • Institutional Wealth & Operator Publishing
-          </div>
         </div>
         <div class="flex items-center gap-4 text-xs font-mono">
-          <a href="#case-studies" class="hover:text-gold transition">Case Studies</a>
+          <a href="#book-showcase" class="hover:text-storefront-accent-light transition">The Book</a>
           <span>•</span>
-          <a href="#curriculum-breakdown" class="hover:text-gold transition">Curriculum</a>
+          <a href="#curriculum-breakdown" class="hover:text-storefront-accent-light transition">Curriculum</a>
           <span>•</span>
-          <a href="#pricing-value-stack" class="hover:text-gold transition">Pricing ($27)</a>
+          <a href="#case-studies" class="hover:text-storefront-accent-light transition">Case Studies</a>
           <span>•</span>
-          <a href="mailto:support@aliveoldmoney.shop" class="hover:text-gold transition">Support</a>
+          <a href="mailto:support@aliveoldmoney.shop" class="hover:text-storefront-accent-light transition">Support</a>
         </div>
       </div>
 
       <!-- LEGAL, FINANCIAL & TAX DISCLAIMER (From Page 1 of the Book) -->
-      <div class="py-8 border-b border-slate-800/80 text-[11px] leading-relaxed text-slate-400 space-y-3">
-        <div class="font-mono font-bold text-slate-300 uppercase tracking-wider text-[10px]">
+      <div class="py-8 border-b border-storefront-border-subtle text-[11px] leading-relaxed text-storefront-text-secondary space-y-3">
+        <div class="font-mono font-bold text-storefront-cream uppercase tracking-wider text-[10px]">
           LEGAL, FINANCIAL & TAX DISCLAIMER (FROM PAGE 1 OF MANUAL):
         </div>
         <p>
@@ -1143,12 +957,12 @@
       </div>
 
       <!-- Copyright & Bottom Meta -->
-      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] font-mono text-slate-400 text-center sm:text-left">
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] font-mono text-storefront-text-secondary text-center sm:text-left">
         <div>
-          © 2026 Alive Old Money — aliveoldmoney.shop. All rights reserved.
+          © 2026 Alive Old Money. All rights reserved.
         </div>
-        <div class="text-slate-400">
-          Handcrafted for Direct-Response Operators • Protected by Gumroad SSL
+        <div>
+          Protected by Gumroad 256-Bit SSL Encryption
         </div>
       </div>
 
@@ -1157,42 +971,28 @@
 
   <!-- =========================================================================
        STICKY MOBILE BOTTOM CTA BAR
-       (Appears smoothly after scrolling > 300px; optimized for Facebook browser)
   ========================================================================== -->
-  <div id="sticky-mobile-cta" class="fixed bottom-0 left-0 right-0 z-50 bg-[#070A12]/95 border-t border-gold/40 shadow-2xl backdrop-blur-md transform translate-y-full transition-transform duration-300 md:hidden safe-bottom-padding">
+  <div id="sticky-mobile-cta" class="fixed bottom-0 left-0 right-0 z-50 bg-[#0B0A07]/95 border-t border-storefront-border-card shadow-2xl backdrop-blur-md transform translate-y-full transition-transform duration-300 md:hidden safe-bottom-padding">
     <div class="px-4 py-3 flex items-center justify-between gap-3">
       <div class="flex items-center gap-2.5">
-        <img src="assets/book-cover.jpg" alt="Own the Machine thumbnail" class="w-8 h-11 object-cover rounded shadow border border-gold/40 flex-shrink-0">
+        <img src="assets/book-cover.jpg" alt="Own the Machine thumbnail" class="w-8 h-11 object-cover rounded shadow border border-storefront-border-card flex-shrink-0">
         <div class="flex flex-col">
-          <span class="font-cinzel text-[11px] font-bold text-gold tracking-wider uppercase leading-none">
+          <span class="font-cinzel text-[11px] font-bold text-storefront-accent-light tracking-wider uppercase leading-none">
             OWN THE MACHINE
           </span>
           <div class="flex items-center gap-1.5 mt-1 font-mono">
-            <span class="text-white font-bold text-sm leading-none">$27</span>
-            <span class="text-slate-400 line-through text-xs leading-none">$54</span>
+            <span class="text-storefront-cream font-bold text-sm leading-none">$27</span>
+            <span class="text-storefront-text-muted line-through text-xs leading-none">$54</span>
             <span class="text-[10px] text-emerald-400 font-semibold bg-emerald-500/20 px-1 py-0.2 rounded leading-none">50% OFF</span>
           </div>
         </div>
       </div>
 
       <a href="https://gumroad.com/l/own-the-machine" 
-         class="gumroad-cta-btn gumroad-button cta-glow-pulse flex-1 max-w-[170px] inline-flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-lg bg-emerald-500 text-obsidian font-bold text-xs tracking-wide shadow-md font-sans">
+         class="gumroad-cta-btn gumroad-button frankie-primary-btn flex-1 max-w-[170px] inline-flex items-center justify-center gap-1.5 py-2.5 px-3 rounded text-xs tracking-wide shadow-md font-sans">
         <span>Get Access Now</span>
-        <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" viewBox="0 0 256 256" aria-hidden="true"><path d="M204,64V168a12,12,0,0,1-24,0V93L72.49,200.49a12,12,0,0,1-17-17L163,76H88a12,12,0,0,1,0-24H192A12,12,0,0,1,204,64Z"></path></svg>
       </a>
-    </div>
-  </div>
-
-  <!-- =========================================================================
-       LIVE CONVERSION SOCIAL PROOF TOAST
-  ========================================================================== -->
-  <div id="social-proof-toast" class="fixed bottom-20 left-4 z-40 bg-obsidian-surface border border-gold/40 rounded-xl p-3 shadow-2xl flex items-center gap-3 max-w-xs transition-all duration-500 transform translate-y-10 opacity-0 pointer-events-none hidden sm:flex">
-    <div class="w-9 h-9 rounded-full bg-gold/15 border border-gold/40 flex items-center justify-center text-gold font-bold flex-shrink-0">
-      <i data-lucide="award" class="w-4 h-4 text-gold"></i>
-    </div>
-    <div class="font-mono text-xs leading-tight">
-      <div class="text-white font-semibold" id="toast-title">Operator from Dallas, TX</div>
-      <div class="text-slate-400 text-[10px]" id="toast-desc">Unlocked 2026 Playbook 4m ago</div>
     </div>
   </div>
 
@@ -1207,7 +1007,6 @@
       }
 
       // 2. Centralized Gumroad URL Binding:
-      // Update all elements with class 'gumroad-cta-btn' to GUMROAD_CHECKOUT_URL
       const ctaButtons = document.querySelectorAll('.gumroad-cta-btn');
       ctaButtons.forEach(btn => {
         btn.setAttribute('href', GUMROAD_CHECKOUT_URL);
@@ -1245,23 +1044,19 @@
       const sde = parseFloat(inputSde.value);
       const sellerPct = parseFloat(inputSellerPct.value) / 100;
 
-      // Down payment is 100% - sellerPct (with a standard 10% min equity cash cushion)
       const downPct = Math.max(0.10, 1 - sellerPct);
       const downPayment = price * downPct;
       const sellerNoteAmount = price * (1 - downPct);
 
-      // Estimated 5-year seller note at 6.5% interest
       const monthlyRate = 0.065 / 12;
       const totalMonths = 60;
       const monthlyPmt = sellerNoteAmount * (monthlyRate * Math.pow(1 + monthlyRate, totalMonths)) / (Math.pow(1 + monthlyRate, totalMonths) - 1);
       const annualDebtService = monthlyPmt * 12;
 
-      // Net cash flow
       const netCash = sde - annualDebtService;
       const coc = (netCash / downPayment) * 100;
       const dscr = sde / annualDebtService;
 
-      // Update UI displays
       displayPrice.textContent = '$' + price.toLocaleString();
       displaySde.textContent = '$' + sde.toLocaleString();
       displaySellerPct.textContent = (sellerPct * 100).toFixed(0) + '%';
@@ -1288,7 +1083,7 @@
       inputSellerPct.addEventListener('input', updateCalculator);
     }
 
-    // 6. FAQ Accordion Toggle
+    // 5. FAQ Accordion Toggle
     function toggleFaq(button) {
       const parent = button.parentElement;
       const content = parent.querySelector('.faq-content');
@@ -1296,7 +1091,6 @@
 
       const isHidden = content.classList.contains('hidden');
 
-      // Close all other FAQs
       document.querySelectorAll('.faq-content').forEach(el => el.classList.add('hidden'));
       document.querySelectorAll('.faq-chevron').forEach(el => el.classList.remove('rotate-180'));
 
@@ -1305,41 +1099,6 @@
         chevron.classList.add('rotate-180');
       }
     }
-
-    // 7. Rotating Social Proof Toast
-    const buyers = [
-      { location: "Austin, TX", time: "3 minutes ago", item: "2026 Operator Manual" },
-      { location: "London, UK", time: "7 minutes ago", item: "Playbook + 12 Templates" },
-      { location: "Chicago, IL", time: "11 minutes ago", item: "2026 Complete Edition" },
-      { location: "Toronto, Canada", time: "14 minutes ago", item: "Seller Financing LOI Package" },
-      { location: "Miami, FL", time: "18 minutes ago", item: "2026 Operator Manual" }
-    ];
-    let buyerIndex = 0;
-    const toast = document.getElementById('social-proof-toast');
-    const toastTitle = document.getElementById('toast-title');
-    const toastDesc = document.getElementById('toast-desc');
-
-    function showNextToast() {
-      if (!toast) return;
-      const b = buyers[buyerIndex];
-      toastTitle.textContent = `Operator from ${b.location}`;
-      toastDesc.textContent = `Downloaded ${b.item} ${b.time}`;
-
-      toast.classList.remove('opacity-0', 'translate-y-10');
-      toast.classList.add('opacity-100', 'translate-y-0');
-
-      setTimeout(() => {
-        toast.classList.remove('opacity-100', 'translate-y-0');
-        toast.classList.add('opacity-0', 'translate-y-10');
-        buyerIndex = (buyerIndex + 1) % buyers.length;
-      }, 5000);
-    }
-
-    // Start toast interval after 6 seconds
-    setTimeout(() => {
-      showNextToast();
-      setInterval(showNextToast, 16000);
-    }, 6000);
   </script>
 
 </body>
