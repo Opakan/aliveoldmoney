@@ -10,7 +10,7 @@ The checkout link is centralized in a single constant at the top of `index.html`
 
 ```html
 <script>
-  const GUMROAD_CHECKOUT_URL = "https://gumroad.com/l/own-the-machine";
+  const GUMROAD_CHECKOUT_URL = "https://warrencroft.gumroad.com/l/Own-the-machine";
 </script>
 ```
 
